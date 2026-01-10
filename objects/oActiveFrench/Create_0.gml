@@ -1,0 +1,2 @@
+itemID=ITEMS.FRENCH;
+bps=25;

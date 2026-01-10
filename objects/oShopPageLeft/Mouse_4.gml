@@ -1,0 +1,1 @@
+if(global.shopPage>1) global.shopPage--;

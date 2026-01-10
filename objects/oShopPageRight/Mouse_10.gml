@@ -1,0 +1,1 @@
+if (global.shopPage<global.maxShopPages) window_set_cursor(cr_handpoint);

@@ -1,0 +1,1 @@
+if (global.shopPage<global.maxShopPages) global.shopPage++;
