@@ -14,7 +14,7 @@ if(global.inventory[itemID]>0){
 		t.value = bps*global.inventory[itemID]
 		
 		for(i=0; i<global.inventory[itemID]; i++){
-			instance_create_layer(random_range(0,room_width),-32,"BGBredRain",oBredPart);
+			if(instance_count<1000) instance_create_layer(random_range(0,room_width),-32,"BGBredRain",oBredPart);
 		}
 	}
 }

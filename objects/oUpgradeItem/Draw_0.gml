@@ -7,8 +7,8 @@ draw_set_halign(fa_left);
 //Draw text and description
 draw_text(textX,y,name);
 draw_text(textX,y+25,description);
-draw_text(textX,y+25+25,"+"+string(bpc)+" BPC (bre'd per click)")
-draw_text(textX,y+25+25+25,"Price: "+string(price)+" bre'd");
+draw_text(textX,y+25+25,"+"+string_thousands(bpc)+" BPC (bre'd per click)")
+draw_text(textX,y+25+25+25,"Price: "+string_thousands(price)+" bre'd");
 
 if(global.bred>=price){
 	image_index=0;

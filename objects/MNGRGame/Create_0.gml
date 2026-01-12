@@ -34,4 +34,4 @@ global.inventory [ITEMS.SLICE] = 0;
 global.inventory [ITEMS.TOAST] = 0;
 global.inventory [ITEMS.FRENCH] = 0;
 
-global.currentUpgrade=UPGRADES.LOAF;
+global.currentUpgrade=UPGRADES.CIABATTA;

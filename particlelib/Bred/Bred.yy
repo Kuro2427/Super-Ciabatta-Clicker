@@ -63,8 +63,8 @@
   "speedWiggle":0.0,
   "spriteAnimate":false,
   "spriteId":{
-    "name":"ciabattaParticle",
-    "path":"sprites/ciabattaParticle/ciabattaParticle.yy",
+    "name":"sCiabattaParticle",
+    "path":"sprites/sCiabattaParticle/sCiabattaParticle.yy",
   },
   "spriteRandom":false,
   "spriteStretch":true,

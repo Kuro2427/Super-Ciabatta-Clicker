@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ciabattaParticle",
-    "path":"sprites/ciabattaParticle/ciabattaParticle.yy",
+    "name":"sCiabattaParticle",
+    "path":"sprites/sCiabattaParticle/sCiabattaParticle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
