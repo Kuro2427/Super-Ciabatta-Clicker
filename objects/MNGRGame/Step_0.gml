@@ -25,3 +25,15 @@ if(global.timer>0){
 }else{
 	global.timer=60;
 }
+
+//Apply upgrade buffs
+
+switch(global.currentUpgrade){
+	case UPGRADES.CIABATTA:
+		global.bredPerClick=1
+	break;
+	
+	case UPGRADES.LOAF:
+		global.bredPerClick=10;	
+	break;
+}

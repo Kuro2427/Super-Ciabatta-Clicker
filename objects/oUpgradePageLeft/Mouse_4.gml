@@ -1,0 +1,1 @@
+if(global.upgradePage>1) global.upgradePage--;

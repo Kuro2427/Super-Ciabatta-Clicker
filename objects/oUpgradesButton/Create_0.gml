@@ -1,0 +1,2 @@
+text="<< Upgrades"
+goto=rmUpgrades;

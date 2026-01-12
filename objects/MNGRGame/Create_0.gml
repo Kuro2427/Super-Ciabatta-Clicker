@@ -24,7 +24,14 @@ enum ITEMS{
 	FRENCH
 }
 
+enum UPGRADES{
+	CIABATTA,
+	LOAF
+}
+
 //Inventory
 global.inventory [ITEMS.SLICE] = 0;
 global.inventory [ITEMS.TOAST] = 0;
 global.inventory [ITEMS.FRENCH] = 0;
+
+global.currentUpgrade=UPGRADES.LOAF;

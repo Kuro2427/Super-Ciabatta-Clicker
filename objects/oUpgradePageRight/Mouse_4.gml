@@ -1,0 +1,1 @@
+if (global.upgradePage<global.maxUpgradePages) global.upgradePage++;

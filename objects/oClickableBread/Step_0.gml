@@ -21,3 +21,14 @@ if(animationState==1){
 //Wave animation
 y = anchor_y + (sin(timer) * hover_range);
 timer+=hover_speed;
+
+//Change sprite on upgrade
+switch(global.currentUpgrade){
+	case UPGRADES.CIABATTA:
+		if(sprite_index!=sCiabattaBig) sprite_index=sCiabattaBig;
+	break;
+	
+	case UPGRADES.LOAF:
+		if(sprite_index!=sLoafBig) sprite_index=sLoafBig;
+	break;
+}

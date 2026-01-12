@@ -1,0 +1,1 @@
+if (global.upgradePage<global.maxUpgradePages) window_set_cursor(cr_handpoint);
