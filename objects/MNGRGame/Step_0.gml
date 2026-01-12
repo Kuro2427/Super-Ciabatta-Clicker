@@ -24,6 +24,7 @@ if(global.timer>0){
 	global.timer--;
 }else{
 	global.timer=60;
+	show_debug_message("Instance count: "+string(instance_count));
 }
 
 //Apply upgrade buffs

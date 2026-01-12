@@ -11,3 +11,7 @@ function string_thousands(_number) {
     
     return _str;
 }
+
+function give_bred(i){
+	global.bred=i;
+}

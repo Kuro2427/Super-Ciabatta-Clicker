@@ -5,7 +5,7 @@ if(animationState==0){
 	t.value=global.bredPerClick;
 	
 	for(i=0; i<global.bredPerClick; i++){
-		if(instance_count<1000) instance_create_layer(random_range(0,room_width),-32,"BGBredRain",oBredPart);
+		if(instance_number(oBredPart)<1000) instance_create_layer(random_range(0,room_width),-32,"BGBredRain",oBredPart);
 	}
 	
 }
