@@ -25,6 +25,16 @@ if(global.timer>0){
 }else{
 	global.timer=60;
 	show_debug_message("Instance count: "+string(instance_count));
+	
+	if(saveCountdown>0){
+		saveCountdown--;
+		show_debug_message("Saving in "+string(saveCountdown+1)+"...")
+	} else{
+		save_game();
+		saveCountdown=5;
+		show_debug_message("Saving...")
+	}
+	
 }
 
 //Apply upgrade buffs

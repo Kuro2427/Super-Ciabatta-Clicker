@@ -5,6 +5,8 @@ global.bredPerClick=1;
 
 global.timer=60;
 
+saveCountdown=5;
+
 news = [
 "Could bread be the key to eternal youth? \"No?? Why the hell would it??\" Say scientists.",
 "Made up currencies: What are they? Why are they taking our youth by storm? Could they be harmful to the human psyche?",
@@ -35,3 +37,5 @@ global.inventory [ITEMS.TOAST] = 0;
 global.inventory [ITEMS.FRENCH] = 0;
 
 global.currentUpgrade=UPGRADES.CIABATTA;
+
+load_game();
