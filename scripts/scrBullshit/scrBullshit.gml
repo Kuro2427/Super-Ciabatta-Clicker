@@ -33,6 +33,8 @@ function save_game(){
 	ini_write_real("inventory","french",global.inventory[ITEMS.FRENCH]);
 		
 	ini_write_real("upgrade","rank",global.currentUpgrade);
+	
+	ini_write_real("system","news",MNGRGame.nextRandText);
 		
 	ini_close();
 }
@@ -49,5 +51,9 @@ function load_game(){
 		global.inventory[ITEMS.FRENCH] = ini_read_real("inventory","french",0);
 		
 		global.currentUpgrade = ini_read_real("upgrade","rank",UPGRADES.CIABATTA);
+		
+		MNGRGame.nextRandText = ini_read_real("system","news",100);
+		
+		ini_close();
 	}
 }
